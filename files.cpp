@@ -15,9 +15,10 @@ void swap(int& a,int&b) {
 	a = b;
 	b = tmp;
 }
-
+void set() {
+}
 int get() {
-	int j = 20;
+	int j = 200;
 	return j;
 }
 
