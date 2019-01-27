@@ -17,7 +17,8 @@ void swap(int& a,int&b) {
 }
 
 int get() {
-	return 1;
+	int j = 20;
+	return j;
 }
 
 int main() {
