@@ -17,10 +17,12 @@ void swap(int& a,int&b) {
 }
 
 int get() {
-	int j=100;
+	int i=20;
+	int j=100+i;
 	
 	return j;
 }
+
 
 int main() {
 	
