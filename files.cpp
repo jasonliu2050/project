@@ -17,6 +17,7 @@ void swap(int& a,int&b) {
 	cout <<"test" <<endl;
 }
 void set() {
+	cout <<"set value" <<endl;
 }
 int get() {
 	int j=100;
