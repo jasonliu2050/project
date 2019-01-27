@@ -14,11 +14,14 @@ void swap(int& a,int&b) {
 	int tmp = a;
 	a = b;
 	b = tmp;
+	cout<<endl;
 }
 void set() {
+   int i=0;
+
 }
 int get() {
-	int i=20;
+	int i=200;
 	int j=100+i;
 	
 	return j;
