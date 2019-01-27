@@ -18,9 +18,12 @@ void swap(int& a,int&b) {
 void set() {
 }
 int get() {
-	int j = 200;
+	int i=20;
+	int j=100+i;
+	
 	return j;
 }
+
 
 int main() {
 	
