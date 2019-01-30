@@ -27,7 +27,7 @@ int get() {
 	return j;
 }
 
-//add by int branch
+
 int main() {
 	
 	for (int i = 0; i < 50; i++) {
