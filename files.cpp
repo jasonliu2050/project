@@ -27,7 +27,7 @@ int get() {
 	return j;
 }
 
-
+// added from feature1
 int main() {
 	
 	for (int i = 0; i < 50; i++) {
