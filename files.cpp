@@ -29,8 +29,9 @@ int get() {
 
 // added from feature1
 int main() {
-	
+// from linux add	
 	for (int i = 0; i < 50; i++) {
+		cout << "LINUX added<<endl;
 		cout << "i="<<i<<endl;
 		return 0;
 	}
