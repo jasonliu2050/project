@@ -19,21 +19,22 @@ Your repository should include the following:
 
 ## Research Question
 
-How can we recognise digit in handwriting digital image (8x8 pixels)? 
+How can we recognise digit in handwriting image using machine learning algorithm? 
 ### Abstract
-The problem we need to solve is to classify handwritten digits. The goal is to take an image of a handwritten digit and determine what that digit is. The digits range from 0 through 9. By using handwriting digit dataset provided from Sklearn, we could apply machine learning algorithm to solve the problem, with different classifiers and parameters along with preprocessing techniques from XXX% error rate with linear classifier to achieving XXX% error rate with Nearest Neighbor (NN). The scope of this article include to compare the different classifiers with different parameters and try to achieve higher performance.
+The problem we need to solve is to classify handwritten digits. The goal is to take an image of a handwritten digit and determine what that digit is. The digits range from 0 through 9. By using handwriting digit dataset provided from Sklearn, we could apply machine learning algorithm to solve the problem, with different classifiers and parameters along with preprocessing techniques from XXX% error rate with linear classifier to achieving XXX% error rate with Nearest Neighbor (NN). The scope of this article also include comparing the different classifiers with different parameters and try to achieve higher performance.
 
 ### Introduction
-We will use public digit dataset provided from Sklearn, the data that we are interested in is made of 8x8 images of digits, it contains 1797 samples, 64 features. Each sample in the dataset represent an image that is 8 pixels in height and 8 pixels in width, the total of 64 pixels. Each image is labelled with their corresponding category that is the actual digit from 0 to 9 for a total of 10 different labels. Using these data, we could find out the relationships between image pixels and their digit values, which can then be used for predicting the target digit. Sklearn machine learning algorithm Support Vector Machines (SVMs) and Nearest Neighbor (NN) techniques can be used to solve the problem.
-To apply a classifier on this data, we need to flatten the image, to
-turn the data in a (samples, feature) matrix:
+We will use public digit dataset provided from Sklearn, the data that we are interested in is made of 8x8 images of digits (deep 4bits), it contains 1797 samples, 64 features. Each sample in the dataset represent an image that is 8 pixels in height and 8 pixels in width, the total of 64 pixels. Each image is labelled with their corresponding category that is the actual digit from 0 to 9 for a total of 10 different type of labels. Using these data, we could find out the relationships between image pixels and their digit values, which can then be used for predicting the target digit. Sklearn machine learning algorithm Support Vector Machines (SVMs) and Nearest Neighbor (NN) techniques can be used to solve the problem.
 
 ### Methods
 We use Support Vector Machines (SVMs) and Nearest Neighbor (NN) techniques to solve the problem. The tasks involved are the following:
+
 1. Load Digit Dataset (sklearn recommended ways to load datasets)
+2. To apply a classifier on this data, we need to flatten the image, to turn the data in a (samples, feature) matrix.
 2. Train a classifier that can categorize the handwritten digits
 3. Apply the model on the test set and report its accuracy
-Based on the preliminary performance of this regressor, we found that the current model didn't provide consistent performance, but shows promise for success with more sophisticated methods.
+
+Based on the preliminary performance of this estimator, we found that the current model didn't provide consistent performance, but shows promise for success with more sophisticated methods.
 
 - pseudocode for this method (either created by you or cited from somewhere else)
 - why you chose this method
