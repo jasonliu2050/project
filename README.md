@@ -53,6 +53,12 @@ Brief (no more than 1-2 paragraph) description about what you did. Include:
 - suggested next step that could make it better.
 
 ### References
-All of the links
+Dataset: https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html#sklearn.datasets.load_digits
+Sklearn: https://scikit-learn.org/stable/whats_new.html#version-0-21-3
+Seaborn: https://seaborn.pydata.org/index.html
+Matplotlib3.1.1: matplotlib.org/3.1.1/index.html
+Handwriting Article reference:
+https://medium.com/the-andela-way/applying-machine-learning-to-recognize-handwritten-characters-babcd4b8d705
+https://en.wikipedia.org/wiki/Handwriting_recognition
 
 -------
