@@ -1,9 +1,9 @@
-# cebd1160_project_template
-Instructions and template for final projects.
+# cebd1160_project
+Instructions for final projects.
 
 | Name | Date |
 |:-------|:---------------|
-|Your name here | Completion date|
+|Jun Liu | 2019.11.18|
 
 -----
 
