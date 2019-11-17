@@ -1,4 +1,4 @@
-# cebd1160_project
+# cebd1160: Digital Image Handwriting recognition
 Instructions for final projects.
 
 | Name | Date |
@@ -10,7 +10,7 @@ Instructions for final projects.
 ### Resources
 Your repository should include the following:
 
-- Python script for your analysis
+- Python script for your analysis: project.py
 - Results figure/saved file
 - Dockerfile for your experiment
 - runtime-instructions in a file named RUNME.md
@@ -19,16 +19,16 @@ Your repository should include the following:
 
 ## Research Question
 
-1 sentence description of your research question.
-
+How can we recognise digit in handwriting digital image (8x8 pixels) 
 ### Abstract
 
-4 sentence longer explanation about your research question. Include:
-
-- opportunity (what data do we have)
-- challenge (what is the "problem" we could solve with this dataset)
-- action (how will we try to solve this problem/answer this question)
-- resolution (what did we end up producing)
+We will use digit dataset provided from Sklearn, it contains 1797 samples, 64 features. Each sample in the dataset represent an image that is 8 pixels in height and 8 pixels in width, the total of 64 pixels. Each image is labelled with their corresponding category that is the actual digit from 0 to 9 for a total of 10 different labels.Using these data, we could find out the relationships between image pixels and their digit values, which can then be used for predicting the target digit. 
+The problem we need to solve is to classify handwritten digits. The goal is to take an image of a handwritten digit and determine what that digit is. The digits range from 0 through 9.
+We use Support Vector Machines (SVMs) and Nearest Neighbor (NN) techniques to solve the problem. The tasks involved are the following:
+1. Load Digit Dataset (sklearn recommended ways to load datasets)
+2. Train a classifier that can categorize the handwritten digits
+3. Apply the model on the test set and report its accuracy
+Based on the preliminary performance of this regressor, we found that the current model didn't provide consistent performance, but shows promise for success with more sophisticated methods.
 
 ### Introduction
 
