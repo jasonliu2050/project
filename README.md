@@ -42,10 +42,8 @@ Picture 1: Simple visualization and classification of the digits dataset
 ### Results
 Picture 2: 
 ![matrix](./figures/Scores.png)
-
-- At least 1 figure
-- At least 1 "value" that summarizes either your data or the "performance" of your method
-- A short explanation of both of the above
+An example showing how different algorithms perform on the hand-written digits dataset.
+![matrix](./figures/Comparation.png)
 
 ### Discussion
 Brief (no more than 1-2 paragraph) description about what you did. Include:
