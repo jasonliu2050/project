@@ -38,7 +38,7 @@ Based on the preliminary performance of this estimator, we found that the curren
 
 - pseudocode for this method (either created by you or cited from somewhere else)
 - why you chose this method
-
+![matrix](./figures/PrincipalComponentAnalysis.png)
 ### Results
 
 Brief (2 paragraph) description about your results. Include:
