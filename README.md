@@ -40,17 +40,15 @@ Based on the preliminary performance of this estimator, we found that both model
 Picture 1: Simple visualization and classification of the digits dataset
 ![matrix](./figures/PrincipalComponentAnalysis.png)
 ### Results
+We can see that in general, our model seems perform well. 
 Picture 2: 
 ![matrix](./figures/Scores.png)
 An example showing how different algorithms perform on the hand-written digits dataset.
 ![matrix](./figures/Comparation.png)
 
 ### Discussion
-Brief (no more than 1-2 paragraph) description about what you did. Include:
-
-- interpretation of whether your method "solved" the problem
-- suggested next step that could make it better.
-
+The methods used here did solved the problem of identifying handwritten digits. This method shows that using the current online training dataset, SVC has the best performance, KNN has rated as second high score. While Perceptron designed for large scale dataset, it looks not as good as SVC or KNN when using the small dataset.   
+Handwritted digits are store as image file, the size may changes in real life, the digit may rotate in different direction, all these issues are not tested because of the our dataset limit.  
 ### References
 Dataset: https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html#sklearn.datasets.load_digits
 Sklearn: https://scikit-learn.org/stable/whats_new.html#version-0-21-3
