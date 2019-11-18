@@ -59,5 +59,6 @@ Matplotlib3.1.1: matplotlib.org/3.1.1/index.html
 Handwriting Article reference:
 https://medium.com/the-andela-way/applying-machine-learning-to-recognize-handwritten-characters-babcd4b8d705
 https://en.wikipedia.org/wiki/Handwriting_recognition
+https://scikit-learn.org/stable/auto_examples/linear_model/plot_sgd_comparison.html#sphx-glr-auto-examples-linear-model-plot-sgd-comparison-py
 
 -------
