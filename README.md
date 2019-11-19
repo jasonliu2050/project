@@ -39,6 +39,7 @@ For Sklearn training set, we use Support Vector Machines (SVMs) and Nearest Neig
 Based on the preliminary performance of estimators, we found that both models provide consistent performance. 
 
 Simple visualization and classification of the digits dataset
+
 Picture 1:
 ![matrix](./figures/PrincipalComponentAnalysis.png)
 ### Results
