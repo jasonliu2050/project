@@ -27,8 +27,8 @@ When use public digit dataset provided from Sklearn, the data that we are intere
 
 We also use MNIST training set, which is much more larger compair to Sklearn training Digits set, it contains 42,000 samples in total and 784 features. Each sample in the dataset represent an image that is 28 pixels in height and 28 pixels in width, hence the total of 784 pixels. Same as Sklearn,  each image is labelled with their corresponding category that is the actual digit from 0 to 9. Convolutional neural networks (CNNs) algorithm is used for this training set.
 
-### Methods
-We use Support Vector Machines (SVMs) and Nearest Neighbor (NN) techniques to solve the problem. The tasks involved are the following:
+### Methods Using Sklearn
+For Sklearn training set, we use Support Vector Machines (SVMs) and Nearest Neighbor (NN) techniques to solve the problem. The tasks involved are the following:
 
 1. Load Digit Dataset (sklearn recommended ways to load datasets)
 2. Simple visualization and classification of the digits dataset (Picture 1)
@@ -36,9 +36,10 @@ We use Support Vector Machines (SVMs) and Nearest Neighbor (NN) techniques to so
 4. Train a classifier that can categorize the handwritten digits
 5. Apply the model on the test set and report its accuracy
 
-Based on the preliminary performance of this estimator, we found that both models provide consistent performance. 
+Based on the preliminary performance of estimators, we found that both models provide consistent performance. 
 
-Picture 1: Simple visualization and classification of the digits dataset
+Simple visualization and classification of the digits dataset
+Picture 1:
 ![matrix](./figures/PrincipalComponentAnalysis.png)
 ### Results
 We can see that in general, our model seems perform well. 
@@ -46,6 +47,8 @@ Picture 2:
 ![matrix](./figures/Scores.png)
 An example showing how different algorithms perform on the hand-written digits dataset.
 ![matrix](./figures/Comparation.png)
+
+### Methods Using Convolutional Neural Networks (CNNs) 
 
 ### Discussion
 The methods used here did solved the problem of identifying handwritten digits. This method shows that using the current online training dataset, SVC has the best performance, KNN has rated as second high score. While Perceptron designed for large scale dataset, it looks not as good as SVC or KNN when using the small dataset.   
