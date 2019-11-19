@@ -41,6 +41,7 @@ Based on the preliminary performance of estimators, we found that both models pr
 Simple visualization and classification of the digits dataset
 
 Picture 1:
+
 ![matrix](./figures/PrincipalComponentAnalysis.png)
 ### Results
 We can see that in general, our model seems perform well. 
