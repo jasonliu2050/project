@@ -33,8 +33,7 @@ For Sklearn training set, we use Support Vector Machines (SVMs) Nearest Neighbor
 1. Load Digit Dataset (sklearn recommended ways to load datasets)
 2. Simple visualization and classification of the digits dataset (Picture 1)
 3. Dataset Preprocessing 
-4. Train a classifier that can categorize the handwritten digits
-5. Apply the model on the test set and report its accuracy
+4. Train a classifier, apply the model on the test set and report its accuracy
 
 #### 1. Load Dataset
 from sklearn import datasets
@@ -54,16 +53,11 @@ The accuracy of KNN can be severely degraded with high-dimension data because th
 
 Since the original dimension is quite large (784 input features), the dimensionality reduction becomes necessary. First, we extract the principal components from the original data. We do this by fitting a Principle Component Analysis (PCA) on the training set, then transforming the data using the PCA fit. We used the PCA module of the scikit-learn Python library with n_components set to differenct value to transform the dataset. From the test result, I found the first 30 ~ 60 principal components can interpret approximately 90% of total information, which suffice to be representative of the information in the original dataset. We thus choose the first 60 principal components as the extracted features.
 
-#### 4. Train a classifier that can categorize the handwritten digits
-
-#### 5. Apply the model on the test set and report its accuracy
-
-Picture 2: 
-![matrix](./figures/Scores.png)
-
-Table showing how different algorithms perform on the hand-written digits dataset.
+#### 4. Result
+ Table showing how different algorithms perform on the hand-written digits dataset.
 
 ![matrix](./figures/Comparation.png)
+![matrix](./figures/Scores.png)
 
 ### Methods Using Keras Sequential Neural Networks
 
