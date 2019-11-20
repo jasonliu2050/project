@@ -1,4 +1,4 @@
-# cebd1160: Digital Image Handwriting recognition
+# cebd1160: Digital Image Handwriting Recognition
 Instructions for final projects.
 
 | Name | Date |
@@ -21,14 +21,14 @@ Your repository should include the following:
 
 How can we recognise digit in handwriting image using different machine learning algorithms ? 
 ### Abstract
-The problem we need to solve is to classify handwritten digits. The goal is to take an image of a handwritten digit and determine what that digit is. The digits range from 0 through 9. We could apply machine learning algorithms to solve our problem. Using simple handwriting digit datasets provided from Sklearn, with different classifiers, we achieved from 97% F1-score with Nearest Neighbor (KNN) classifier to achieving 99% Support Vector Classifier(SVC). The scope of this article also include comparing the different classifiers with different parameters, using dataset from the famous MNIST (Modified National Institute of Standards and Technology), and try to achieve higher performance by choosing parameters along with preprocessing techniques.
+The problem we need to solve is to classify handwritten digits. The goal is to take an image of a handwritten digit and determine what that digit is. The digits range from 0 through 9. We could apply machine learning algorithms to solve our problem. Using simple handwriting digit datasets provided by Sklearn, we achieved from 97% F1-score with Nearest Neighbor (KNN) classifier, to achieving 99% F1 score with Support Vector Classifier(SVC). The scope of this article also include comparing the different classifiers, using dataset from the famous MNIST (Modified National Institute of Standards and Technology), and try to achieve higher performance by choosing parameters along with dataset preprocessing technique.
 ### Introduction
-When use public digit dataset provided from Sklearn, the data that we are interested in is made of 8x8 images of digits(4bits each), it contains 1797 samples, 64 features. Each sample in the dataset represent an image that is 8 pixels in height and 8 pixels in width, the total of 64 pixels. Each image is labelled with their corresponding category that is the actual digit from 0 to 9 for a total of 10 different type of labels. Using these data, we could find out the relationships between image pixels and their digit values, which can then be used for predicting the target digit. Sklearn machine learning algorithm Support Vector Machines (SVMs), Nearest Neighbor (NN) techniques and Perceptron are used in our solution.
+When use public digit dataset provided from Sklearn, the data that we are interested in is made of 8x8 image, it contains 1797 samples, 64 features. Each sample in the dataset represent an image that is 8 pixels in height and 8 pixels in width, the total of 64 pixels. Each image is labelled with their corresponding category that is the actual digit from 0 to 9 for a total of 10 different type of labels. Using these data, we could find out the relationships between image pixels and their digit values, which can then be used for predicting the target digit. Sklearn machine learning algorithms, Support Vector Machines (SVMs), Nearest Neighbor (NN) techniques and Perceptron are used in our solution.
 
-We also use MNIST training set, which is much more larger compair to Sklearn training Digits set, it contains 42,000 samples in total and 784 features. Each sample in the dataset represent an image that is 28 pixels in height and 28 pixels in width, hence the total of 784 pixels. Same as Sklearn,  each image is labelled with their corresponding category that is the actual digit from 0 to 9. Convolutional neural networks (CNNs) algorithm is used for this training set.
+We also use MNIST training set, which is much more larger compair to Sklearn training Digits set, it contains 42,000 samples in total and 784 features. Each sample in the dataset represent an image that is 28 pixels in height and 28 pixels in width, hence the total of 784 pixels. Same as Sklearn,  each image is labelled with their corresponding category that is the actual digit from 0 to 9. Keras Sequential Neural Networks algorithm is used for this training set.
 
 ### Methods Using Sklearn
-For Sklearn training set, we use Support Vector Machines (SVMs) and Nearest Neighbor (NN) techniques to solve the problem. The tasks involved are the following:
+For Sklearn training set, we use Support Vector Machines (SVMs) Nearest Neighbor (NN) and Perceptron techniques to solve the problem. The tasks involved are the following:
 
 1. Load Digit Dataset (sklearn recommended ways to load datasets)
 2. Simple visualization and classification of the digits dataset (Picture 1)
@@ -36,7 +36,7 @@ For Sklearn training set, we use Support Vector Machines (SVMs) and Nearest Neig
 4. Train a classifier that can categorize the handwritten digits
 5. Apply the model on the test set and report its accuracy
 
-Based on the preliminary performance of estimators, we found that both models provide consistent performance. 
+Based on the preliminary performance of estimators, we found that all models provide consistent performance. 
 
 Simple visualization and classification of the digits dataset
 
@@ -52,7 +52,7 @@ Table showing how different algorithms perform on the hand-written digits datase
 
 ![matrix](./figures/Comparation.png)
 
-### Methods Using Convolutional Neural Networks (CNNs) 
+### Methods Using Keras Sequential Neural Networks
 
 ### Discussion
 The methods used here did solved the problem of identifying handwritten digits. This method shows that using the current online training dataset, SVC has the best performance, KNN has rated as second high score. While Perceptron designed for large scale dataset, it looks not as good as SVC or KNN when using the small dataset.   
