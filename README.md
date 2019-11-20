@@ -32,17 +32,25 @@ For Sklearn training set, we use Support Vector Machines (SVMs) Nearest Neighbor
 
 1. Load Digit Dataset (sklearn recommended ways to load datasets)
 2. Simple visualization and classification of the digits dataset (Picture 1)
-3. To apply a classifier on this data, we can flat the image, to turn the data in a (samples, feature) matrix or directly use the data.
+3. Dataset Preprocessing 
 4. Train a classifier that can categorize the handwritten digits
 5. Apply the model on the test set and report its accuracy
 
 Based on the preliminary performance of estimators, we found that all models provide consistent performance. 
 
-Simple visualization and classification of the digits dataset
+# Load Dataset
+from sklearn import datasets
+digits = datasets.load_digits()
 
-Picture 1:
+# Simple visualization and classification of the digits dataset
 
 ![matrix](./figures/PrincipalComponentAnalysis.png)
+
+# Dataset preprocessing
+Since the original dimension is quite large (784 input features), the dimensionality reduction becomes necessary. First, we extract the principal components from the original data. We do this by fitting a Principle Component Analysis (PCA) on the training set, then transforming the data using the PCA fit. We used the PCA module of the scikit-learn Python library with n_components set to differenct value to transform the dataset. From the test result, we found the first 30 ~ 60 principal components can interpret approximately 90% of total information, which suffice to be representative of the information in the original dataset. We thus choose the first 60 principal components as the extracted features.
+
+![matrix](./figures/Scores.png)
+
 ### Results
 
 Picture 2: 
