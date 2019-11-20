@@ -36,23 +36,27 @@ For Sklearn training set, we use Support Vector Machines (SVMs) Nearest Neighbor
 4. Train a classifier that can categorize the handwritten digits
 5. Apply the model on the test set and report its accuracy
 
-Based on the preliminary performance of estimators, we found that all models provide consistent performance. 
-
-#### Load Dataset
+#### 1. Load Dataset
 from sklearn import datasets
 
 digits = datasets.load_digits()
 
-#### Simple visualization and classification of the digits dataset
+from keras.datasets import mnist
+
+#### 2. Simple visualization and classification of the digits dataset
 
 ![matrix](./figures/PrincipalComponentAnalysis.png)
 
-#### Dataset preprocessing
-Since the original dimension is quite large (784 input features), the dimensionality reduction becomes necessary. First, we extract the principal components from the original data. We do this by fitting a Principle Component Analysis (PCA) on the training set, then transforming the data using the PCA fit. We used the PCA module of the scikit-learn Python library with n_components set to differenct value to transform the dataset. From the test result, we found the first 30 ~ 60 principal components can interpret approximately 90% of total information, which suffice to be representative of the information in the original dataset. We thus choose the first 60 principal components as the extracted features.
+#### 3. Dataset preprocessing
+I give a example for data preprocessing when use Nearest Neighbor (KNN) classifier.
 
+The accuracy of KNN can be severely degraded with high-dimension data because there is little difference between the nearest and farthest neighbor. Dimensionality reduction techniques like PCA could be executed prior to appplying KNN and help make the distance metric more meaningful.
 
+Since the original dimension is quite large (784 input features), the dimensionality reduction becomes necessary. First, we extract the principal components from the original data. We do this by fitting a Principle Component Analysis (PCA) on the training set, then transforming the data using the PCA fit. We used the PCA module of the scikit-learn Python library with n_components set to differenct value to transform the dataset. From the test result, I found the first 30 ~ 60 principal components can interpret approximately 90% of total information, which suffice to be representative of the information in the original dataset. We thus choose the first 60 principal components as the extracted features.
 
-### Results
+#### 4. Train a classifier that can categorize the handwritten digits
+
+#### 5. Apply the model on the test set and report its accuracy
 
 Picture 2: 
 ![matrix](./figures/Scores.png)
