@@ -43,7 +43,7 @@ from sklearn import datasets
 
 digits = datasets.load_digits()
 
-# Simple visualization and classification of the digits dataset
+#### Simple visualization and classification of the digits dataset
 
 ![matrix](./figures/PrincipalComponentAnalysis.png)
 
