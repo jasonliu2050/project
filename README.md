@@ -38,15 +38,16 @@ For Sklearn training set, we use Support Vector Machines (SVMs) Nearest Neighbor
 
 Based on the preliminary performance of estimators, we found that all models provide consistent performance. 
 
-# Load Dataset
+#### Load Dataset
 from sklearn import datasets
+
 digits = datasets.load_digits()
 
 # Simple visualization and classification of the digits dataset
 
 ![matrix](./figures/PrincipalComponentAnalysis.png)
 
-# Dataset preprocessing
+#### Dataset preprocessing
 Since the original dimension is quite large (784 input features), the dimensionality reduction becomes necessary. First, we extract the principal components from the original data. We do this by fitting a Principle Component Analysis (PCA) on the training set, then transforming the data using the PCA fit. We used the PCA module of the scikit-learn Python library with n_components set to differenct value to transform the dataset. From the test result, we found the first 30 ~ 60 principal components can interpret approximately 90% of total information, which suffice to be representative of the information in the original dataset. We thus choose the first 60 principal components as the extracted features.
 
 ![matrix](./figures/Scores.png)
