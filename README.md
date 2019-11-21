@@ -66,13 +66,13 @@ The test result are using Scikit-learn toy dataset. All test result are very goo
 
 #### Methods Using Keras Sequential Neural Networks
 
-Keras Neural Networks are very diferent from Scikit-learn, we will not give more details about it, please see link below for reference. here we only show you the test result, without doing any optimazition, Keras Neural Network algorithm easily reach 0.95 accuracy on MNIST training digit dataset, which is better than Scikit-learn when use the same test dataset.
+Keras Neural Networks are very diferent from Scikit-learn, we will not give more details in this article, you can check the link below for reference. Here we can see from script test result, without doing any optimazition, Keras Neural Network algorithm easily reach 0.95 accuracy on MNIST training digit dataset, which is better than Scikit-learn when use the same test dataset.
 
 ![matrix](./figures/KerasScores.png)
 
 ## Discussion
 The methods used above did solved the problem of identifying handwritten digits. These methods shows that using the current online training dataset, all  Scikit-learn algorithms: SVC, KNN, Perceptron performs very good when using the small dataset. when using MNIST training digit dataset, Keras Neural Network algorithm has the best performance.    
-We still need to test these algorithm performance use digit image in real life, for example, the size may changes, the digit may rotate in different direction, and when digital image sample are put into dark backgroud such as a car plate, those new problems need use Computer Vision and Pattern Recognition algorithms, such OpenCV. All these issues are not tested because of the our dataset limit.  
+We still need to test these algorithm performance use digit image in real life, for example, the size may changes, the digit may rotate in different direction, and how to handle digital image samples in dark backgroud such as a car plate, those new problems need use Computer Vision and Pattern Recognition algorithm, such as OpenCV. All these issues are not tested because of the our dataset limit.  
 
 ## References
 Dataset: https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html#sklearn.datasets.load_digits
