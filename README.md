@@ -24,7 +24,9 @@ How to solve handwriting digits recognition problem using machine learning algor
 ### Abstract
 The problem we need to solve is to classify handwritten digits. The goal is to take an image of a handwritten digit and determine what that digit is. The digits range from 0 through 9. We could apply machine learning algorithms to solve our problem. Using simple handwriting digit datasets provided by Scikit-learn, we achieved from 97% F1-score with Nearest Neighbor (KNN) classifier, to achieving 99% F1 score with Support Vector Classifier(SVC). The scope of this article also include comparing the different classifiers, using dataset from the famous MNIST (Modified National Institute of Standards and Technology), and try to achieve higher performance by choosing parameters along with dataset preprocessing technique.
 ### Introduction
-When use public digit dataset provided from scikit-learn, the data that we are interested in is made of 8x8 image, it contains 1797 samples, 64 features. Each sample in the dataset represent an image that is 8 pixels in height and 8 pixels in width, the total of 64 pixels. Each image is labelled with their corresponding category that is the actual digit from 0 to 9 for a total of 10 different type of labels. Using these data, we could find out the relationships between image pixels and their digit values, which can then be used for predicting the target digit. Scikit-learn machine learning algorithms: Support Vector Machines (SVMs), Nearest Neighbor (NN) techniques and Perceptron are used in our solution. For Scikit-learn simple digit dataset, all these algorithms performs very well without doing feature selection or any preprocess for that dataset, for this reason, we also use MNIST training digit dataset, which is much more larger compair to Scikit-learn training Digits set, it contains 42,000 samples in total and 784 features. Each sample in the dataset represent an image that is 28 pixels in height and 28 pixels in width, hence the total of 784 pixels. Keras Sequential Neural Networks algorithm is also used for this training set. 
+When use public digit dataset provided from scikit-learn, the data that we are interested in is made of 8x8 image, it contains 1797 samples, 64 features. Each sample in the dataset represent an image that is 8 pixels in height and 8 pixels in width, the total of 64 pixels. Each image is labelled with their corresponding category that is the actual digit from 0 to 9 for a total of 10 different type of labels. Using these data, we could find out the relationships between image pixels and their digit values, which can then be used for predicting the target digit. 
+
+Scikit-learn machine learning algorithms: Support Vector Machines (SVMs), Nearest Neighbor (NN) techniques and Perceptron are used in our solution. For Scikit-learn simple digit dataset, all these algorithms performs very well without doing feature selection or any preprocess for that dataset, for this reason, we also use MNIST training digit dataset, which is much more larger compair to Scikit-learn training Digits set, it contains 42,000 samples in total and 784 features. Each sample in the dataset represent an image that is 28 pixels in height and 28 pixels in width, hence the total of 784 pixels. Keras Sequential Neural Networks algorithm is also used for this training set. 
 
 ### Methods Using Scikit-learn
 For Scikit-learn training set, we use Support Vector Machines (SVMs) Nearest Neighbor (NN) and Perceptron techniques to solve the problem. The tasks involved are the following:
@@ -59,12 +61,17 @@ The following picture show Training data size are very important to the final te
 #### Methods Using Scikit-learn Algorithms
 Picture below showing difference algorithms perform on the Scikit-learn hand-written digits dataset.
 The test result are using Scikit-learn toy dataset. All test result are very good.
+
 ![matrix](./figures/Comparation.png)
 
 #### Methods Using Keras Sequential Neural Networks
+
 Keras Neural Networks are very diferent from Scikit-learn. Please see picture below.
+
 ![matrix](./figures/NeuralNetWorkArchiture.png)
+
 Without doing any optimazition, Keras Neural Network algorithm easily reach 0.95 accuracy on MNIST training digit dataset.
+
 ![matrix](./figures/KerasScores.png)
 
 ## Discussion
