@@ -30,17 +30,15 @@ We also use MNIST training set, which is much more larger compair to Sklearn tra
 ### Methods Using Sklearn
 For Sklearn training set, we use Support Vector Machines (SVMs) Nearest Neighbor (NN) and Perceptron techniques to solve the problem. The tasks involved are the following:
 
-1. Load Digit Dataset (sklearn recommended ways to load datasets)
+1. Load and Explore the Digit Dataset (sklearn recommended ways to load datasets)
 2. Simple visualization and classification of the digits dataset (Picture 1)
 3. Dataset Preprocessing 
 4. Train a classifier, apply the model on the test set and report its accuracy
 
-#### 1. Load Dataset
-from sklearn import datasets
+#### 1. Load and Explore the Dataset
 
-digits = datasets.load_digits()
+![matrix](./figures/ExploreDataset.png)
 
-from keras.datasets import mnist
 
 #### 2. Simple visualization and classification of the digits dataset
 
@@ -57,8 +55,12 @@ Since the original dimension is quite large (784 input features), the dimensiona
  Table showing difference algorithms perform on the Sklearn hand-written digits dataset.
 
 ![matrix](./figures/Comparation.png)
+![matrix](./figures/Training_Size_Accuracy.png)
 
 ### Methods Using Keras Sequential Neural Networks
+![matrix](./figures/NeuralNetWorkArchiture.png)
+
+![matrix](./figures/KerasScores.png)
 
 ### Discussion
 The methods used here did solved the problem of identifying handwritten digits. This method shows that using the current online training dataset, SVC has the best performance, KNN has rated as second high score. While Perceptron designed for large scale dataset, it looks not as good as SVC or KNN when using the small dataset.   
