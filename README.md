@@ -66,11 +66,7 @@ The test result are using Scikit-learn toy dataset. All test result are very goo
 
 #### Methods Using Keras Sequential Neural Networks
 
-Keras Neural Networks are very diferent from Scikit-learn. Please see picture below.
-
-![matrix](./figures/NeuralNetWorkArchiture.png)
-
-Without doing any optimazition, Keras Neural Network algorithm easily reach 0.95 accuracy on MNIST training digit dataset.
+Keras Neural Networks are very diferent from Scikit-learn, we will not give more details about it, please see link below for reference. here we only show you the test result, without doing any optimazition, Keras Neural Network algorithm easily reach 0.95 accuracy on MNIST training digit dataset, which is better than Scikit-learn when use the same test dataset.
 
 ![matrix](./figures/KerasScores.png)
 
