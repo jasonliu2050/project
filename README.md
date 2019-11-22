@@ -7,7 +7,7 @@ Instructions for final projects.
 
 -----
 
-### Resources
+## Resources
 This Project repository includes the following items:
 
 - Python scripts for analysis:  
@@ -16,11 +16,11 @@ This Project repository includes the following items:
  [Training sample size & Model Accuracy](https://github.com/jasonliu2050/project/blob/master/TrainingSize_Accuracy.py)  
  [Scikit-learn algorithm comparison](https://github.com/jasonliu2050/project/blob/master/project.py)  
 
-- Results/Pictures:
-
-- Dockerfile for your experiment
-
-- runtime-instructions: 
+- Results/Pictures:  
+ 
+- Dockerfile for your experiment  
+  TBD
+- runtime-instructions:   
   RUNME.md
 
 -----
