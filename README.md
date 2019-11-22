@@ -57,7 +57,9 @@ I give a example for data preprocessing when use Nearest Neighbor (KNN) classifi
 The accuracy of KNN can be severely degraded with high-dimension data because there is little difference between the nearest and farthest neighbor. Dimensionality reduction techniques like PCA could be executed prior to appplying KNN and help make the distance metric more meaningful.
 
 Since the original dimension is quite large (784 input features), the dimensionality reduction becomes necessary. First, we extract the principal components from the original data. We do this by fitting a Principle Component Analysis (PCA) on the training set, then transforming the data using the PCA fit. We used the PCA module of the scikit-learn Python library with n_components set to differenct value to transform the dataset. From the test result, I found the first 30 ~ 60 principal components can interpret approximately 90% of total information, which suffice to be representative of the information in the original dataset. We thus choose the first 60 principal components as the extracted features. The test result shows Accuracy are much better than use all input features. ([Test Script: PCA Linear Dimensionality Reduction ](https://github.com/jasonliu2050/project/blob/master/PCA_Linear_dimensionality_reduction.py))  
-The following picture show Training data size are very important to the final test accuracy result:[Reference Training sample size & Model Accuracy](https://github.com/jasonliu2050/project/blob/master/TrainingSize_Accuracy.py)    
+The following picture show Training data size are very important to the final test accuracy result.
+
+([Test Script: Training sample size & Model Accuracy](https://github.com/jasonliu2050/project/blob/master/TrainingSize_Accuracy.py))    
 ![matrix](./figures/Training_Size_Accuracy.png)
 
 ### 4. Final Test Result
