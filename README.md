@@ -17,7 +17,7 @@ This Project repository includes the following items:
  [Scikit-learn algorithm comparison](https://github.com/jasonliu2050/project/blob/master/project.py)  
 
 - Results/Pictures:  
- 
+ [Scores](https://github.com/jasonliu2050/project/blob/master/figures/Scores.png)
 - Dockerfile for your experiment  
   TBD
 - runtime-instructions:   
