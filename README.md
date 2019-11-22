@@ -10,11 +10,11 @@ Instructions for final projects.
 ### Resources
 This repository includes the following:
 
-- Python script fors analysis: 
- [ExploreDigitsDataset](https://github.com/jasonliu2050/project/blob/master/ExploreDigitsDataset.py)
- [Keras_Neural_Network](https://github.com/jasonliu2050/project/blob/master/Keras_Neural_Network.py)
- [Training sample size & Model Accuracy](https://github.com/jasonliu2050/project/blob/master/TrainingSize_Accuracy.py)
- [Scikit-learn algorithm comparison](https://github.com/jasonliu2050/project/blob/master/project.py)
+- Python scripts for analysis: 
+ [ExploreDigitsDataset](https://github.com/jasonliu2050/project/blob/master/ExploreDigitsDataset.py)  
+ [Keras_Neural_Network](https://github.com/jasonliu2050/project/blob/master/Keras_Neural_Network.py)  
+ [Training sample size & Model Accuracy](https://github.com/jasonliu2050/project/blob/master/TrainingSize_Accuracy.py)  
+ [Scikit-learn algorithm comparison](https://github.com/jasonliu2050/project/blob/master/project.py)  
 - Results/Pictures:
 
 - Dockerfile for your experiment
@@ -82,18 +82,12 @@ The methods used above did solved the problem of identifying handwritten digits.
 We still need to test these algorithm performance use digit image in real life, for example, the size may changes, the digit may rotate in different direction, and how to handle digital image samples in dark backgroud such as a car plate, those new problems need use Computer Vision and Pattern Recognition algorithm, such as OpenCV. All these issues are not tested because of the our dataset limit.  
 
 ## References
-[Dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html#sklearn.datasets.load_digits)
-
-[Scikit-learn](https://scikit-learn.org/stable/whats_new.html#version-0-21-3)
-
-[Keras Example](https://medium.com/tebs-lab/how-to-classify-mnist-digits-with-different-neural-network-architectures-39c75a0f03e3)
-
-[Keras Sequential model](https://keras.io/models/sequential/)
-
-[Matplotlib3.1.1]( matplotlib.org/3.1.1/index.html)
-
-[Handwriting Article reference](https://medium.com/the-andela-way/applying-machine-learning-to-recognize-handwritten-characters-babcd4b8d705)
-
-[Comparing various online solvers](https://scikit-learn.org/stable/auto_examples/linear_model/plot_sgd_comparison.html#sphx-glr-auto-examples-linear-model-plot-sgd-comparison-py)
+[Dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html#sklearn.datasets.load_digits)  
+[Scikit-learn](https://scikit-learn.org/stable/whats_new.html#version-0-21-3)  
+[Keras Example](https://medium.com/tebs-lab/how-to-classify-mnist-digits-with-different-neural-network-architectures-39c75a0f03e3)  
+[Keras Sequential model](https://keras.io/models/sequential/)  
+[Matplotlib3.1.1]( matplotlib.org/3.1.1/index.html)  
+[Handwriting Article reference](https://medium.com/the-andela-way/applying-machine-learning-to-recognize-handwritten-characters-babcd4b8d705)  
+[Comparing various online solvers](https://scikit-learn.org/stable/auto_examples/linear_model/plot_sgd_comparison.html#sphx-glr-auto-examples-linear-model-plot-sgd-comparison-py)  
 
 
