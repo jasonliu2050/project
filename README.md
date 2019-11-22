@@ -87,7 +87,7 @@ We still need to test these algorithm performance use digit image in real life, 
 [Scikit-learn](https://scikit-learn.org/stable/whats_new.html#version-0-21-3)  
 [Keras Example](https://medium.com/tebs-lab/how-to-classify-mnist-digits-with-different-neural-network-architectures-39c75a0f03e3)  
 [Keras Sequential model](https://keras.io/models/sequential/)  
-[Matplotlib3.1.1]( matplotlib.org/3.1.1/index.html)  
+[Matplotlib3.1.1](https://matplotlib.org/3.1.1/users/whats_new.html)  
 [Handwriting Article reference](https://medium.com/the-andela-way/applying-machine-learning-to-recognize-handwritten-characters-babcd4b8d705)  
 [Comparing various online solvers](https://scikit-learn.org/stable/auto_examples/linear_model/plot_sgd_comparison.html#sphx-glr-auto-examples-linear-model-plot-sgd-comparison-py)  
 
