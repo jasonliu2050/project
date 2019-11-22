@@ -8,12 +8,19 @@ Instructions for final projects.
 -----
 
 ### Resources
-Your repository should include the following:
+This repository includes the following:
 
-- Python script for your analysis: ./*.py
-- Results: ./figures/*.png
+- Python script fors analysis: 
+ [ExploreDigitsDataset](https://github.com/jasonliu2050/project/blob/master/ExploreDigitsDataset.py)
+ [Keras_Neural_Network](https://github.com/jasonliu2050/project/blob/master/Keras_Neural_Network.py)
+ [Training sample size & Model Accuracy](https://github.com/jasonliu2050/project/blob/master/TrainingSize_Accuracy.py)
+ [Scikit-learn algorithm comparison](https://github.com/jasonliu2050/project/blob/master/project.py)
+- Results/Pictures:
+
 - Dockerfile for your experiment
-- runtime-instructions in a file named RUNME.md
+
+- runtime-instructions: 
+  RUNME.md
 
 -----
 
