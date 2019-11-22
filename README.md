@@ -75,7 +75,7 @@ The methods used above did solved the problem of identifying handwritten digits.
 We still need to test these algorithm performance use digit image in real life, for example, the size may changes, the digit may rotate in different direction, and how to handle digital image samples in dark backgroud such as a car plate, those new problems need use Computer Vision and Pattern Recognition algorithm, such as OpenCV. All these issues are not tested because of the our dataset limit.  
 
 ## References
-Dataset: https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html#sklearn.datasets.load_digits
+[Dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html#sklearn.datasets.load_digits)
 Sklearn: https://scikit-learn.org/stable/whats_new.html#version-0-21-3
 Keras:https://medium.com/tebs-lab/how-to-classify-mnist-digits-with-different-neural-network-architectures-39c75a0f03e3
 Keras:https://keras.io/models/sequential/
