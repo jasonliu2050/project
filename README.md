@@ -8,13 +8,14 @@ Instructions for final projects.
 -----
 
 ### Resources
-This repository includes the following:
+This Project repository includes the following items:
 
-- Python scripts for analysis: 
+- Python scripts for analysis:  
  [ExploreDigitsDataset](https://github.com/jasonliu2050/project/blob/master/ExploreDigitsDataset.py)  
  [Keras_Neural_Network](https://github.com/jasonliu2050/project/blob/master/Keras_Neural_Network.py)  
  [Training sample size & Model Accuracy](https://github.com/jasonliu2050/project/blob/master/TrainingSize_Accuracy.py)  
  [Scikit-learn algorithm comparison](https://github.com/jasonliu2050/project/blob/master/project.py)  
+
 - Results/Pictures:
 
 - Dockerfile for your experiment
