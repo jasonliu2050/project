@@ -11,11 +11,18 @@ x_train = x_train.reshape(x_train.shape[0], image_vector_size)
 x_test = x_test.reshape(x_test.shape[0], image_vector_size)
 
 print("please wait ...")
-# pca = PCA(n_components = 500).fit(x_train)  # Accuracy will be less than 0.94,
-# pca = PCA(n_components = 200).fit(x_train) # Accuracy will be 0.94
-pca = PCA(n_components = 60).fit(x_train) # Accuracy will be 0.96
+#Fitting the PCA algorithm with our Data
+pca = PCA(n_components = 100).fit(x_train)
+#pca = PCA(n_components = 200).fit(x_train)
 
-# print('explained variance ratio (60 components): %s' % str(pca.explained_variance_ratio_))
+
+#Plotting the Cumulative Summation of the Explained Variance
+plt.figure()
+plt.plot(np.cumsum(pca.explained_variance_ratio_))
+plt.xlabel('Number of Components')
+plt.ylabel('Variance (%)') #for each component
+plt.title('Digit Dataset Explained Variance')
+# plt.show()
 
 projected = pca.fit_transform(x_train[:2000])
 
@@ -30,7 +37,7 @@ predicted = clf.predict(x_test[:2000])
 report =metrics.classification_report(y_test[:2000], predicted[:2000])
 report_dict =  metrics.classification_report(y_test[:2000], predicted[:2000], output_dict = True)
 print("Classification report for classifier %s:\n%s\n" % (clf, report ))
-
+plt.figure()
 plt.scatter(projected[:, 0], projected[:, 1], c=y_train[:2000], edgecolor='none', alpha=0.8,cmap="Paired")
 plt.colorbar();
 plt.show()
