@@ -66,16 +66,12 @@ The following picture also show Training data size are very important to the fin
 ### 4. Final Test Result
 
 #### Methods Using Scikit-learn Algorithms
-Picture below showing difference algorithms perform on the Scikit-learn hand-written digits dataset.
-The test result are using Scikit-learn toy dataset. All test result are very good.
-
-![matrix](./figures/Comparation.png)
-
+Picture below showing difference algorithms perform on the Scikit-learn hand-written digits dataset.  
+The test result are using Scikit-learn toy dataset. All test result are very good.  
 #### Methods Using Keras Sequential Neural Networks
-
 Keras Neural Networks are very diferent from Scikit-learn, we will not give more details in this article, you can check the link below for reference. Here we can see from script test result, without doing any optimazition, Keras Neural Network algorithm easily reach 0.95 accuracy on MNIST training digit dataset, which is better than Scikit-learn when use the same test dataset.
 
-![matrix](./figures/KerasScores.png)
+![matrix](./figures/Comparation.png)
 
 ## Discussion
 The methods used above did solved the problem of identifying handwritten digits. These methods shows that using the current online training dataset, all  Scikit-learn algorithms: SVC, KNN, Perceptron performs very good when using the small dataset, Keras Neural Network algorithm has the best performance when using MNIST training digit dataset.  
