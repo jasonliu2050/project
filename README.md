@@ -32,7 +32,7 @@ The problem we need to solve is to classify handwritten digits. The goal is to t
 ### Introduction
 When use public digit dataset provided from scikit-learn, the data that we are interested in is made of 8x8 image, it contains 1797 samples, 64 features. Each sample in the dataset represent an image that is 8 pixels in height and 8 pixels in width, the total of 64 pixels. Each image is labelled with their corresponding category that is the actual digit from 0 to 9 for a total of 10 different type of labels. Using these data, we could find out the relationships between image pixels and their digit values, which can then be used for predicting the target digit. 
 
-Scikit-learn machine learning algorithms: Support Vector Machines (SVMs), Nearest Neighbor (NN) techniques and Perceptron are used in our solution. For Scikit-learn simple digit dataset, all these algorithms performs very well without doing feature selection or any preprocess for that dataset, for this reason, we also use MNIST training digit dataset, which is much more larger compair to Scikit-learn training Digits set, it contains 60,000 samples in total and 784 features. Each sample in the dataset represent an image that is 28 pixels in height and 28 pixels in width, hence the total of 784 pixels. Keras Sequential Neural Networks algorithm is also used for this training set. 
+Scikit-learn machine learning algorithms: Support Vector Machines (SVMs), Nearest Neighbor (NN) techniques and Perceptron are used in our solution. For Scikit-learn simple digit dataset, all these algorithms performs very well without doing feature selection or any preprocess for that dataset, for this reason, we also use MNIST training digit dataset, which is much larger compair to Scikit-learn training Digits set. It contains 60,000 samples in total and 784 features. Each sample in the dataset represent an image that is 28 pixels in height and 28 pixels in width, total of 784 pixels. Keras Sequential Neural Networks algorithm is also used for this training set. 
 
 ### Methods Using Scikit-learn
 For Scikit-learn training set, we use Support Vector Machines (SVMs) Nearest Neighbor (NN) and Perceptron techniques to solve the problem. The tasks involved are the following:
@@ -43,7 +43,7 @@ For Scikit-learn training set, we use Support Vector Machines (SVMs) Nearest Nei
 4. Train a classifier, and test its accuracy
 
 #### 1. Load and Explore the Dataset
-
+[Test Script: ExploreDigitsDataset](https://github.com/jasonliu2050/project/blob/master/ExploreDigitsDataset.py)  
 ![matrix](./figures/ExploreDataset.png)
 
 
