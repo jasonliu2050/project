@@ -83,7 +83,8 @@ We still need to test these algorithm performance use digit image in real life, 
 
 ## References
 [Dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html#sklearn.datasets.load_digits)  
-[Scikit-learn](https://scikit-learn.org/stable/whats_new.html#version-0-21-3)  
+[Scikit-learn](https://scikit-learn.org/stable/whats_new.html#version-0-21-3) 
+[Scikit-kearn Classifier comparison](https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html)  
 [Keras Example](https://medium.com/tebs-lab/how-to-classify-mnist-digits-with-different-neural-network-architectures-39c75a0f03e3)  
 [Keras Sequential model](https://keras.io/models/sequential/)  
 [Matplotlib3.1.1](https://matplotlib.org/3.1.1/users/whats_new.html)  
