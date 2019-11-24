@@ -63,14 +63,12 @@ The following picture also show Training data size are very important to the fin
 ([Test Script: Training sample size & Model Accuracy](https://github.com/jasonliu2050/project/blob/master/TrainingSize_Accuracy.py)) 
 ![matrix](./figures/PrincipalComponentAnalysis_variance.png)
 
-
 ### 4. Final Test Result
-
 #### Methods Using Scikit-learn Algorithms
 Picture below showing difference algorithms perform on the Scikit-learn hand-written digits dataset.  
-The test result are using Scikit-learn toy dataset. All test result are very good.  
+The test script use the best fit parameter we found during the dataset preprocessing. We use 100 (n_components) for PCA Linear dimensionlity Reduction. Use 10,000 sample for training dataset, all test results are good using large MNIST digit dataset.  
 #### Methods Using Keras Sequential Neural Networks
-Keras Neural Networks are very diferent from Scikit-learn, we will not give more details in this article, you can check the link below for reference. Here we can see from script test result, without doing any optimazition, Keras Neural Network algorithm easily reach 0.95 accuracy on MNIST training digit dataset, which is better than Scikit-learn when use the same test dataset.
+Keras Neural Networks are very diferent from Scikit-learn, we use 1024 nodes for the first layer(input), use 10 Epoch. Here we can see the test result, without doing any optimazition, Keras Neural Network algorithm easily reach 0.95 accuracy using MNIST digit dataset, much better than Scikit-learn algorithms when use the same test dataset. 
 
 ![matrix](./figures/Comparation.png)
 
