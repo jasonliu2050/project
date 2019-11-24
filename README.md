@@ -68,7 +68,7 @@ The following picture also show Training data size are very important to the fin
 Picture below shows different algorithm performance. The test script use the best fit parameter we found during the dataset preprocessing. We use 100 (n_components) for PCA Linear dimensionlity Reduction. Use 10,000 sample for training dataset, all test results are good using large MNIST digit dataset.  
 #### Methods Using Keras Sequential Neural Networks
 Keras Neural Networks are very diferent from Scikit-learn, we use 1024 nodes for the first layer(input), use 10 Epoch. Here we can see the test result, without doing any optimazition, Keras Neural Network algorithm easily reach 0.95 accuracy using MNIST digit dataset, much better than Scikit-learn algorithms when use the same test dataset. 
-
+[Project Script: Algorithm Comparison](https://github.com/jasonliu2050/project/blob/master/project.py)  
 ![matrix](./figures/Comparation.png)
 
 ## Discussion
