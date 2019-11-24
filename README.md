@@ -65,8 +65,7 @@ The following picture also show Training data size are very important to the fin
 
 ### 4. Final Test Result
 #### Methods Using Scikit-learn Algorithms
-Picture below showing difference algorithms perform on the Scikit-learn hand-written digits dataset.  
-The test script use the best fit parameter we found during the dataset preprocessing. We use 100 (n_components) for PCA Linear dimensionlity Reduction. Use 10,000 sample for training dataset, all test results are good using large MNIST digit dataset.  
+Picture below shows different algorithm performance. The test script use the best fit parameter we found during the dataset preprocessing. We use 100 (n_components) for PCA Linear dimensionlity Reduction. Use 10,000 sample for training dataset, all test results are good using large MNIST digit dataset.  
 #### Methods Using Keras Sequential Neural Networks
 Keras Neural Networks are very diferent from Scikit-learn, we use 1024 nodes for the first layer(input), use 10 Epoch. Here we can see the test result, without doing any optimazition, Keras Neural Network algorithm easily reach 0.95 accuracy using MNIST digit dataset, much better than Scikit-learn algorithms when use the same test dataset. 
 
@@ -83,6 +82,5 @@ We still need to test these algorithms performance use digit images in real life
 [Keras Example](https://medium.com/tebs-lab/how-to-classify-mnist-digits-with-different-neural-network-architectures-39c75a0f03e3)  
 [Keras Sequential model](https://keras.io/models/sequential/)  
 [Matplotlib3.1.1](https://matplotlib.org/3.1.1/users/whats_new.html)  
-[Handwriting Article reference](https://medium.com/the-andela-way/applying-machine-learning-to-recognize-handwritten-characters-babcd4b8d705)  
-[Comparing various online solvers](https://scikit-learn.org/stable/auto_examples/linear_model/plot_sgd_comparison.html#sphx-glr-auto-examples-linear-model-plot-sgd-comparison-py)  
+[Handwriting Article reference](https://medium.com/the-andela-way/applying-machine-learning-to-recognize-handwritten-characters-babcd4b8d705)   
 [Principal component analysis (PCA)](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
