@@ -16,7 +16,7 @@ This Project repository includes the following items:
  [Dataset Preparison](https://github.com/jasonliu2050/project/blob/master/PCA_Linear_dimensionality_reduction.py)  
  [Algorithm Comparison](https://github.com/jasonliu2050/project/blob/master/project.py)  
 - Results:  
- [Scores_Use SKlearn dataset](https://github.com/jasonliu2050/project/blob/master/figures/Scores.png)
+ [Scores_Use SKlearn dataset](https://github.com/jasonliu2050/project/blob/master/figures/Scores.png)  
  [Scores_Use SKlearn dataset](https://github.com/jasonliu2050/project/blob/master/figures/FinalScores_MNIST_Dataset.png)
 - Dockerfile for your experiment  
 - runtime-instructions:   
