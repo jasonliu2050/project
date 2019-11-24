@@ -48,7 +48,7 @@ For Scikit-learn training set, we use Support Vector Machines (SVMs) Nearest Nei
 
 
 #### 2. Simple visualization and classification of the digits dataset
-This 3D figure using Principal component analysis (PCA) technic. Linear dimensionality reduction using Singular Value Decomposition of the data to project it to a lower dimensional space.
+This 3D figure using Principal component analysis (PCA) technic. 8x8 = 64 pixels (features) reducted to 3 components. This linear dimensionality reduction using Singular Value Decomposition of the data to project it to a lower dimensional space.
 [Test Script: ExploreDigitsDataset](https://github.com/jasonliu2050/project/blob/master/ExploreDigitsDataset.py)  
 ![matrix](./figures/PrincipalComponentAnalysis.png)
 
