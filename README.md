@@ -15,12 +15,11 @@ This Project repository includes the following items:
  [Training sample size & Model Accuracy](https://github.com/jasonliu2050/project/blob/master/TrainingSize_Accuracy.py)  
  [Dataset Preparison](https://github.com/jasonliu2050/project/blob/master/PCA_Linear_dimensionality_reduction.py)  
  [Algorithm Comparison](https://github.com/jasonliu2050/project/blob/master/project.py)  
-- Results/Pictures:  
- [Scores](https://github.com/jasonliu2050/project/blob/master/figures/Scores.png)
+- Results:  
+ [Scores_Use SKlearn dataset](https://github.com/jasonliu2050/project/blob/master/figures/Scores.png)
+ [Scores_Use SKlearn dataset](https://github.com/jasonliu2050/project/blob/master/figures/FinalScores_MNIST_Dataset.png)
 - Dockerfile for your experiment  
-  TBD
 - runtime-instructions:   
-  RUNME.md
 -----
 
 ## Research Question
