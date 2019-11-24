@@ -48,7 +48,8 @@ For Scikit-learn training set, we use Support Vector Machines (SVMs) Nearest Nei
 
 
 #### 2. Simple visualization and classification of the digits dataset
-
+This 3D figure using Principal component analysis (PCA) technic. Linear dimensionality reduction using Singular Value Decomposition of the data to project it to a lower dimensional space.
+[Test Script: ExploreDigitsDataset](https://github.com/jasonliu2050/project/blob/master/ExploreDigitsDataset.py)  
 ![matrix](./figures/PrincipalComponentAnalysis.png)
 
 #### 3. Dataset preprocessing
@@ -86,5 +87,4 @@ We still need to test these algorithms performance use digit images in real life
 [Matplotlib3.1.1](https://matplotlib.org/3.1.1/users/whats_new.html)  
 [Handwriting Article reference](https://medium.com/the-andela-way/applying-machine-learning-to-recognize-handwritten-characters-babcd4b8d705)  
 [Comparing various online solvers](https://scikit-learn.org/stable/auto_examples/linear_model/plot_sgd_comparison.html#sphx-glr-auto-examples-linear-model-plot-sgd-comparison-py)  
-
-
+[Principal component analysis (PCA)](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
