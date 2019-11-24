@@ -12,9 +12,9 @@ This Project repository includes the following items:
 
 - Python scripts for analysis:  
  [ExploreDigitsDataset](https://github.com/jasonliu2050/project/blob/master/ExploreDigitsDataset.py)  
- [Keras_Neural_Network](https://github.com/jasonliu2050/project/blob/master/Keras_Neural_Network.py)  
  [Training sample size & Model Accuracy](https://github.com/jasonliu2050/project/blob/master/TrainingSize_Accuracy.py)  
- [Scikit-learn algorithm comparison](https://github.com/jasonliu2050/project/blob/master/project.py)  
+ [Dataset Preparison](https://github.com/jasonliu2050/project/blob/master/PCA_Linear_dimensionality_reduction.py)  
+ [Algorithm Comparison](https://github.com/jasonliu2050/project/blob/master/project.py)  
 - Results/Pictures:  
  [Scores](https://github.com/jasonliu2050/project/blob/master/figures/Scores.png)
 - Dockerfile for your experiment  
