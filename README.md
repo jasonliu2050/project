@@ -19,7 +19,8 @@ This Project repository includes the following items:
  [Scores_Use SKlearn dataset](https://github.com/jasonliu2050/project/blob/master/figures/Scores.png)  
  [Scores_Use MNIST_Dataset](https://github.com/jasonliu2050/project/blob/master/figures/FinalScores_MNIST_Dataset.png)
 - Dockerfile for your experiment  
-- runtime-instructions:   
+- runtime-instructions:
+  $python3 project.py
 -----
 
 ## Research Question
