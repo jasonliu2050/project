@@ -1,5 +1,5 @@
-# cebd1160: Digital Image Handwriting Recognition
-Instructions for final projects.
+# Digital Image Handwriting Recognition
+![matrix](./figures/machinelearning.png)
 
 | Name | Date |
 |:-------|:---------------|
