@@ -18,7 +18,8 @@ This Project repository includes the following items:
 - Results:  
  [Scores_Use SKlearn dataset](https://github.com/jasonliu2050/project/blob/master/figures/Scores.png)  
  [Scores_Use MNIST_Dataset](https://github.com/jasonliu2050/project/blob/master/figures/FinalScores_MNIST_Dataset.png)
-- Dockerfile for your experiment  
+- Dockerfile for your experiment
+  (Too large to load to github, limited to 100MB)
 - runtime-instructions:
   $python3 project.py
 -----
@@ -48,7 +49,7 @@ For Scikit-learn training set, we use Support Vector Machines (SVMs) Nearest Nei
 
 
 #### 2. Simple visualization and classification of the digits dataset
-This 3D figure using Principal component analysis (PCA) technic. 8x8 = 64 pixels (features) reducted to 3 components. This linear dimensionality reduction using Singular Value Decomposition of the data to project it to a lower dimensional space.
+This 3D figure shows the classification of targets using Principal component analysis (PCA), 8x8 = 64 pixels (features) reducted to 3 components. This linear dimensionality reduction using Singular Value Decomposition of the data to project it to a lower dimensional space.
 [Test Script: ExploreDigitsDataset](https://github.com/jasonliu2050/project/blob/master/ExploreDigitsDataset.py)  
 ![matrix](./figures/PrincipalComponentAnalysis.png)
 
