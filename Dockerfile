@@ -8,6 +8,6 @@ RUN pip3 install numpy matplotlib sklearn tk tensorflow keras
 
 WORKDIR /app
 
-COPY ExploreDigitsDataset.py /app
+COPY project.py /app
 
 CMD ["python3","-u","./project.py"]
