@@ -14,12 +14,13 @@ This Project repository includes the following items:
  [ExploreDigitsDataset](https://github.com/jasonliu2050/project/blob/master/ExploreDigitsDataset.py)  
  [Training sample size & Model Accuracy](https://github.com/jasonliu2050/project/blob/master/TrainingSize_Accuracy.py)  
  [Dataset Preparison](https://github.com/jasonliu2050/project/blob/master/PCA_Linear_dimensionality_reduction.py)  
- [Algorithm Comparison](https://github.com/jasonliu2050/project/blob/master/project.py)  
+ [Project_Script](https://github.com/jasonliu2050/project/blob/master/project.py)  
 - Results:  
  [Scores_Use SKlearn dataset](https://github.com/jasonliu2050/project/blob/master/figures/Scores.png)  
  [Scores_Use MNIST_Dataset](https://github.com/jasonliu2050/project/blob/master/figures/FinalScores_MNIST_Dataset.png)
 - Dockerfile for your experiment
   [Dockerfile](./Dockerfile)  
+  [Dockerfile1](./Dockerfile_ExploreDigitsDataset)  
 - runtime-instructions:
   $python3 project.py
 -----
