@@ -21,7 +21,7 @@ This Project repository includes the following items:
 - Dockerfile for your experiment  
   [Dockerfile](./Dockerfile)  
   [Dockerfile1](./Dockerfile_ExploreDigitsDataset)  
-- runtime-instructions:
+- runtime-instructions:  
   $python3 project.py
 -----
 
