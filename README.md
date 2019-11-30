@@ -46,8 +46,9 @@ For Scikit-learn training set, we use Support Vector Machines (SVMs) Nearest Nei
 
 #### 1. Load and Explore the Dataset
 [Test Script: ExploreDigitsDataset](https://github.com/jasonliu2050/project/blob/master/ExploreDigitsDataset.py)  
-![matrix](./figures/ExploreDataset.png)
-
+![matrix](./figures/ExploreDataset.png)   
+Example of MNIST Dataset sample:  
+![matrix](./figures/mnist_data_10_0.png)
 
 #### 2. Simple visualization and classification of the digits dataset
 This 3D figure shows the classification of targets using Principal component analysis (PCA), 8x8 = 64 pixels (features) reducted to 3 components. This linear dimensionality reduction using Singular Value Decomposition of the data to project it to a lower dimensional space.
